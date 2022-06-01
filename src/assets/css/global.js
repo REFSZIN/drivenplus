@@ -80,6 +80,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Roboto';
 	line-height: 1;
 }
 ol, ul {
@@ -109,13 +110,13 @@ button div{
 body{
     height: 100vh;
 	width: 100vw;
-	background-color: #E5E5E5;
+	background-color: #0E0E13;
 }
-button:hover{
+/* button:hover{
 	cursor: pointer;
     filter: brightness(1.1);
     box-shadow: 1px 1px 2px 1px #126BA5;
-}
+} */
 .react-calendar{
     font-family: 'Righteous', cursive;
 	width: 1400px;
