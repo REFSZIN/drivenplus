@@ -1,9 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useState } from "react";
 import ResetCSS from './assets/css/global.js';
 import UserContext from "./contexts/UserContext";
-import { useState } from "react";
 import SignScreen from "./Pages/SignScreen.js";
 import React from 'react'
+import SingUp from "./Pages/SingUp";
+import Subscriptions from "./Pages/Subscriptions";
+import SubscriptionsPlans from "./Pages/SubscriptionsPlans";
+import Home from "./Pages/Home";
+import Users from "./Pages/Users";
 
 export default function App (){
 
@@ -19,7 +24,7 @@ export default function App (){
                             <Route path="/" element={<SignScreen />}/>
                             <Route path="/sign-up" element={<SingUp />}/>
                             <Route path="/subscriptions" element={<Subscriptions />}/>
-                            <Route path="/subscriptions/:ID_DO_PLANO" element={<SubscriptionsPlan />}/>
+                            <Route path="/subscriptions/:ID_DO_PLANO" element={<SubscriptionsPlans />}/>
                             <Route path="/home" element={<Home/>}/>
                             <Route path="/users/:ID_DO_USUARIO" element={<Users />}/>
                     </Routes> 

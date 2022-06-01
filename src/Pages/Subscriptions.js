@@ -1,11 +1,11 @@
 import styled from "styled-components"
-
+import Subscription from "../components/Subscription/Subscription";
 
 export default function SingUp(){
     
     return(
         <Container>
-            <Subscriptions />
+            <Subscription />
         </Container>
     )
 }

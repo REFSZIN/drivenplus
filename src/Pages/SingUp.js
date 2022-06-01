@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Register from "../components/Register/"
+import Register from "../components/Register/Register";
 
 export default function SingUp(){
     
