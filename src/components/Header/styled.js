@@ -17,5 +17,4 @@ export const ImgGroup = styled.img`
 `;
 export const ImgUser = styled.img`
     margin-right: 8%;
-    margin-top: 30px;
 `;

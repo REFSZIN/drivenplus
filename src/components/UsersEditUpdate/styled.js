@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const ImgSetinha = styled.img`
     position: fixed;
-    top: 40px;
-    left: 40px;
+    top: 20px;
+    left: 20px;
     margin-left: 5%;
     margin-top: 30px;
     width: 30px;

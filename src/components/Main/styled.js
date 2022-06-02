@@ -30,5 +30,5 @@ export const Anime = styled.main`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 `;
