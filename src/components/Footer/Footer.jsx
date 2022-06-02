@@ -1,8 +1,11 @@
-import "./styled.js";
 
+import {Anime, BtnFooter1, BtnFooter2} from "./styled.js";
 export default function Footer(){
 
     return(
-        <h1>Footer</h1>
+    <Anime>
+        <BtnFooter1>Mudar plano</BtnFooter1>
+        <BtnFooter2>Cancelar plano</BtnFooter2>
+    </Anime>
     );
 };

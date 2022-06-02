@@ -9,6 +9,7 @@ import Subscriptions from "./Pages/Subscriptions";
 import SubscriptionsPlans from "./Pages/SubscriptionsPlans";
 import Home from "./Pages/Home";
 import Users from "./Pages/Users";
+import UsersEdit from "./Pages/UsersEdit";
 
 export default function App (){
 
@@ -27,6 +28,7 @@ export default function App (){
                             <Route path="/subscriptions/:ID_DO_PLANO" element={<SubscriptionsPlans />}/>
                             <Route path="/home" element={<Home/>}/>
                             <Route path="/users/:ID_DO_USUARIO" element={<Users />}/>
+                            <Route path="/users/:ID_DO_USUARIO/update" element={<UsersEdit />}/>
                     </Routes> 
             </BrowserRouter>
         </UserContext.Provider>

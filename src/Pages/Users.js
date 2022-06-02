@@ -10,7 +10,7 @@ export default function Users(){
     )
 }
 
-export const Container = styled.section`
+export const Container = styled.aside`
     width: 100%;
     height: 100vh;
     display: flex;

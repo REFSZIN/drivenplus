@@ -1,8 +1,14 @@
-import "./styled.js";
+import {Anime, BtnMain, UserName} from "./styled.js";
 
 export default function Main(){
 
     return(
-        <h1>Main</h1>
+        <Anime>
+            <UserName>Olá, fulano</UserName>
+            <BtnMain>Solicitar brindes</BtnMain>
+            <BtnMain>Materiais bônus de web</BtnMain>
+            <BtnMain>Aulas bônus de tech</BtnMain>
+            <BtnMain>Mentorias personalizadas</BtnMain>
+        </Anime>
     );
 };

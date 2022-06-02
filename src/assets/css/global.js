@@ -53,6 +53,10 @@ ion-icon[name="trash-outline"]:hover{
 	word-wrap: break-word;
 	word-break: break-all;
 }
+header > a {
+    margin-right: 5%;
+	margin-left: 8%;
+}
 a{
     text-decoration: none;
 }
@@ -101,6 +105,9 @@ table {
 #root{
     overflow-x: hidden;
 }
+button{
+	border: none;
+}
 button div{
 	display:flex;
 	align-items: center;
@@ -112,11 +119,10 @@ body{
 	width: 100vw;
 	background-color: #0E0E13;
 }
-/* button:hover{
+button:hover{
 	cursor: pointer;
-    filter: brightness(1.1);
-    box-shadow: 1px 1px 2px 1px #126BA5;
-} */
+    filter: brightness(1.06);
+} 
 .react-calendar{
     font-family: 'Righteous', cursive;
 	width: 1400px;

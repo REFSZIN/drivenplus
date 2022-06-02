@@ -1,8 +1,18 @@
-import "./styled.js";
+import { Link } from "react-router-dom";
+import Group1 from "../../assets/images/Group 1.svg"
+import User from "../../assets/images/User.svg"
+import {Anime, ImgGroup, ImgUser} from "./styled.js";
 
 export default function Header(){
 
     return(
-        <h1>Header</h1>
+    <Anime>
+        <Link to="/">
+            <ImgGroup src={Group1}/>
+        </Link>
+        <Link to="/users/:ID_DO_USUARIO">
+            <ImgUser src={User}/>
+        </Link>
+    </Anime>
     );
 };
